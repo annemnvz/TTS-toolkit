@@ -16,11 +16,11 @@ Note: I tried to make recipes generic but some parts are specific to my project 
 - Join text files in single metadata.txt
 - Text split in punctuation marks 
 
-## Phoneme processing
+### Phoneme processing
 - Transcribe metadata phonetically (save as numpy or regular phonemes)
 
-## Dictionary creation and implementation:
-TBA
+### Dictionary creation and implementation:
+To be added.
 
 ## Getting started
 
