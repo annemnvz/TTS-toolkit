@@ -1,5 +1,5 @@
 ## TTS-toolkit
-A minimalistic toolkit with recipes for the preprocessing and handling of audio and text data oriented to Text-to-Speech modeling. 
+A minimalistic toolkit with recipes for the preprocessing and handling of audio and text data oriented to Text-to-Speech modeling. Recipes can be found in python or bash files depending on how convenient each can be.
 
 Note: This is work in progress. I tried to make recipes generic but some parts are specific to my project - I will improve these by adapting them to open source tools.
 
@@ -33,4 +33,4 @@ cd TTS-toolkit
 
 And run the recipe you need to use. 
 
-Remember to modify paths and files or tools if needed.
+Remember to modify paths and files or adjust to other tools if needed.
