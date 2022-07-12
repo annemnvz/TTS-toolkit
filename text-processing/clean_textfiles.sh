@@ -95,8 +95,8 @@ fi
 
 if [ $stage -le 4 ] && [ ${stop_stage} -ge 4 ]; then
     # transcribe words
+    # replace with Phonemizer, for instance
     echo "Stage 4: Transcribing wordlist..."
-
 
     TRANSCRIBED="${outpath}/transcribed_list.txt"
     cat "${outpath}/word_list.txt" | iconv -f UTF-8 -t ISO—8859-15 | $MODULE -Lang=$LANG -HDicDB=$DICT | iconv -f ISO8859-15 -t UTF-8 > $TRANSCRIBED
@@ -106,7 +106,9 @@ if [ $stage -le 4 ] && [ ${stop_stage} -ge 4 ]; then
 fi
 
 if [ $stage -le 5 ] && [ ${stop_stage} -ge 5 ]; then
-    # transcribe words
+    # Create dictionary
+    # This step can be performed with MFA train: 
+    # https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/workflows/train_acoustic_model.html
     echo "Stage 5: Creating dictionary file..."
 
     DICT_FILE="${outpath}/mydict.dict"
