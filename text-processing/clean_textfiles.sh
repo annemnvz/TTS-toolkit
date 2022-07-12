@@ -8,14 +8,15 @@ stop_stage=7
 # -- Paths --
 # copy files into this folder 
 # or save modified ones into another
-path="../../elra/test3"
-outpath="../../elra/test3/test/clean"
+path=""
+outpath=""
 outfile="${outpath}/texts_all.txt"
 
 # -- Transcription and dictionary related --
-MODULE="../main_eva/modulo1y2/modulo1y2"
-TEXT_MODE="Word"
-DICT="../main_eva/hdicc/es_dicc"
+# This part should be substituted by eSpeak for transcriptions and MFA for dictionary creation (as my suggestions, could be any other)
+MODULE=""
+TEXT_MODE=""
+DICT=""
 LANG="es"
 
 # --
