@@ -1,7 +1,7 @@
 ## TTS-toolkit
 A minimalistic toolkit with recipes for the preprocessing and handling of audio and text data oriented to Text-to-Speech modeling. 
 
-Note: I tried to make recipes generic but some parts are specific to my project - I will improve this by adapting them to open source tools.
+Note: This is work in progress. I tried to make recipes generic but some parts are specific to my project - I will improve these by adapting them to open source tools.
 
 ## Comes with recipes for...
 ### Audio processing:
